@@ -1,18 +1,19 @@
 # MicroPark
 
-To start your Phoenix server:
+A learning project regarding adaptive video streaming based on a similar website found in Are.na and the paper titled "Learning *in situ*: a randomized experiment in video streaming" by Francis Y. Yan et al.
 
-  * Run `mix setup` to install and setup dependencies
-  * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
+Learning about using machine learning to improve and learn about video-streaming algorithms.
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+```elixir
+def deps do
+  [
+    {:micro_park, "~> 0.1.0"}
+  ]
+end
+```
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
+and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
+be found at <https://hexdocs.pm/micro_park>.
 
-## Learn more
-
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+# micro_park
